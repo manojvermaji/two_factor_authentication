@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+</head>
+<body>
+  <h1>Your OTP for Two-Factor Authentication</h1>
+  <p>Hello <%= @user.email %>,</p>
+  <p>Your OTP for two-factor authentication is: <%= @otp %></p>
+  <p>Please use this OTP to complete the login process.</p>
+  <p>This OTP is valid for a limited time.</p>
+  <p>Thank you,</p>
+  <p>Your App Team</p>
+</body>
+</html>
